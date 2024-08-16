@@ -24,11 +24,11 @@ bash <(curl -fsSL https://raw.githubusercontent.com/nyeinkokoaung404/warp/main/e
 ### If you have a problem with ``Termux'', to completely delete the information in the program
 ### Run `rm -rf $PREFIX` command to delete all files and force stop once. And then clear the data. Enter the program again and enter the following command:
 `pkg update -y && pkg upgrade -y && pkg install curl -y`
- ### In response to the questions, just press `y' and finally run the script itself.
- ### Do not send a large number of requests to get free configuration, because you will encounter ``Too Many Requests'' error.  And you have to wait.
+ ### In response to the questions, just press `y` and finally run the script itself.
+ ### Do not send a large number of requests to get free configuration, because you will encounter ``Too Many Requests`` error.  And you have to wait.
 ### If you got a license and to convert to warp-plus, enter the following command to get the configuration:
 ### `WGCF_LICENSE_KEY="Your License" wgcf update`
-### Put your license instead of ``Your License'' and run it.
+### Put your license instead of ``Your License`` and run it.
 ---
 ### Click on the link below to get a free license through the Telegram bot.
 [Get Free License Key] (https://t.me/generatewarpplusbot)
