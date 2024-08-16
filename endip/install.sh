@@ -32,7 +32,7 @@ cfwarpIP() {
 	if [[ ! -f "$PREFIX/bin/warpendpoint" ]]; then
 		echo "Downloading warpendpoint program"
 		if [[ -n $cpu ]]; then
-			curl -L -o warpendpoint -# --retry 2 https://raw.githubusercontent.com/Ptechgithub/warp/main/endip/$cpu
+			curl -L -o warpendpoint -# --retry 2 https://raw.githubusercontent.com/nyeinkokoaung404/warp/main/endip/$cpu
 			cp warpendpoint $PREFIX/bin
 			chmod +x $PREFIX/bin/warpendpoint
 		fi
@@ -166,7 +166,7 @@ generate() {
 				pkg install curl -y
 			fi
 			if [[ -n $cpu ]]; then
-				curl -o "$PREFIX/bin/wgcf" -L "https://raw.githubusercontent.com/Ptechgithub/warp/main/endip/wgcf"
+				curl -o "$PREFIX/bin/wgcf" -L "https://raw.githubusercontent.com/nyeinkokoaung404/warp/main/endip/wgcf"
 				chmod +x "$PREFIX/bin/wgcf"
 			fi
 		else
@@ -301,7 +301,7 @@ wire-g() {
 				apt install wireguard-tools jq xz-utils bzip2 -y
 			fi
 		fi
-		curl -o $PREFIX/bin/wire-g https://raw.githubusercontent.com/Ptechgithub/warp/main/wire-g.sh
+		curl -o $PREFIX/bin/wire-g https://raw.githubusercontent.com/nyeinkokoaung404/warp/main/wire-g.sh
 		chmod +x $PREFIX/bin/wire-g
 		echo ""
 		echo -e "${purple}*********************${rest}"
@@ -509,7 +509,7 @@ cloner() {
 
 #Menu
 clear
-echo -e "${cyan}By --> Peyman * Github.com/Ptechgithub * ${rest}"
+echo -e "${cyan}By --> 4-0-4 * Github.com/nyeinkokoaung404 * ${rest}"
 echo ""
 echo -e "${purple}**********************${rest}"
 echo -e "${purple}*  ${green}Endpoint Scanner ${purple} *${rest}"
