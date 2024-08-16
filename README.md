@@ -17,7 +17,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/nyeinkokoaung404/warp/main/e
 ### Find a healthy IP first by choosing 1 or 2.
 ---
 ### By choosing 3, a free configuration is generated and the healthy IP found in the configuration is automatically added.
-### This configuration can be used for `V2rayNG and Nekobox and WireGuard` program.
+### This configuration can be used for `V2rayNG` and `Nekobox` and `WireGuard` program.
 ### If you encounter an error when copying the config and placing it in the mentioned programs. The problem is the way of copying and the presence of extra spaces between the characters, it is better to first put it in a file (paste) and delete the extra spaces and copy the config again in the mentioned programs. Enter it.
 ### If you use IPV6, after entering the config in V2ray, you must put a sign [ ] before and after the IP, that is, put the IP in it so that you don't have connection problems. And that IPV6 does not work on the first mobile and you receive a timeout error.
 ### Every IP it gets is not 100% safe, so if it doesn't work, get another IP again and put the IP in the address field of the configuration or hit 3 again and get another free configuration. 
