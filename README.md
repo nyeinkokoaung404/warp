@@ -21,7 +21,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/nyeinkokoaung404/warp/main/e
 ### If you encounter an error when copying the config and placing it in the mentioned programs. The problem is the way of copying and the presence of extra spaces between the characters, it is better to first put it in a file (paste) and delete the extra spaces and copy the config again in the mentioned programs. Enter it.
 ### If you use IPV6, after entering the config in V2ray, you must put a sign [ ] before and after the IP, that is, put the IP in it so that you don't have connection problems. And that IPV6 does not work on the first mobile and you receive a timeout error.
 ### Every IP it gets is not 100% safe, so if it doesn't work, get another IP again and put the IP in the address field of the configuration or hit 3 again and get another free configuration. 
-### If you have a problem with ``Termux'', to completely delete the information in the program
+### If you have a problem with ``Termux``, to completely delete the information in the program
 ### Run `rm -rf $PREFIX` command to delete all files and force stop once. And then clear the data. Enter the program again and enter the following command:
 `pkg update -y && pkg upgrade -y && pkg install curl -y`
  ### In response to the questions, just press `y` and finally run the script itself.
@@ -35,7 +35,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/nyeinkokoaung404/warp/main/e
 
 ---
 ### [4] By selecting option 4, a wireguard configuration is generated, which is accompanied by the Reserved value. And it is for use in V2rayNG.
-### This option will install wire-g for you. To display the full guide, just enter ``warp-g -h'' and to get the wireguard configuration, just enter ``warp-g'' and press enter. (This option There is no need to install and run the script again). 
+### This option will install wire-g for you. To display the full guide, just enter ``warp-g -h`` and to get the wireguard configuration, just enter ``warp-g`` and press enter. (This option There is no need to install and run the script again). 
 ### After receiving the free configuration and adding it to V2rayNG, instead of ``engage.cloudflareclient.com'', you must put a scanned IP because this address is filtered.
 ---
 ### Click to download the Windows scanner. [Win_warp_ip.zip] (https://raw.githubusercontent.com/nyeinkokoaung404/warp/main/endip/win_warp_ip.zip)
