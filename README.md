@@ -1,48 +1,48 @@
 ## Warp Endpoint Scanner + Wire-g Installer
 
-## اسکنر آی پی وارپ و نصب کننده ی wire-g (کانفیگ رایگان وایرگارد) + کلونر
+## Warp IP scanner and wire-g installer (free wireguard configuration) + cloner
 install
 ```
 bash <(curl -fsSL https://raw.githubusercontent.com/nyeinkokoaung404/warp/main/endip/install.sh)
 ```
-![16](https://raw.githubusercontent.com/Ptechgithub/configs/main/media/16.jpg)
+![16](https://raw.githubusercontent.com/nyeinkokoaung404/configs/main/media/16.jpg)
 
-### کانال دریافت کانفیگ وایرگارد [WireVpnGuard](https://t.me/WireVpnGuard)
+### Wireguard configuration channel [WireVpnGuard] (https://t.me/WireVpnGuard)
 ![0](https://raw.githubusercontent.com/Ptechgithub/configs/main/media/line.gif)
 
-## اسکنر IP Warp و دریافت کانفیگ رایگان WireGuard برای V2ray و Nekobox و همچنين خود WireGuard  (دو روش)
+## IP Warp scanner and get free WireGuard config for V2ray and Nekobox and also WireGuard itself (two methods)
 
 #Endpoint IP scanner and free Config generator
 
-### ابتدا با انتخاب 1 یا 2 یک ای پی سالم پیدا کنید.
+### Find a healthy IP first by choosing 1 or 2.
 ---
-### با انتخاب 3 یک کانفیگ رایگان تولید میشود و به طور خودکار IP سالم  پیدا شده در کانفیگ اضافه میشود.
-### این کانفیگ برای `V2rayNG` و `Nekobox` و برنامه `WireGuard` قابل استفاده است.
-### هنگام کپی کردن کانفیگ و قرار دادن ان در برنامه های ذکر شده اگر با خطا مواجه شد. مشکل از نحوه ی کپی شدن و وجود فاصله های اضافی در بین کاراکتر ها میباشد، بهتر است ابتدا در یک فایل ان را قرار بدید(پیست کنید) و فاصله های اضافی را پاک کنید و مجدد با کپی کردن کانفیگ آن را در برنامه های ذکر شده وارد کنید.
-### اگر از IPV6 استفاده کردید پس از وارد کردن کانفیگ در V2ray باید قبل و بعد از IP علامت [ ] قرار بدید یعنی آی پی را درون آن بگذاريد تا مشکل اتصال نداشته باشید. و اینکه IPV6 روی همراه اول کار نمیکنه و خطای timeout دریافت میکنید.
-### هر ای پی که می‌گیرد صد درصد سالم نیست پس اگر جواب نداد یک آی پی دیگر مجدد بگیرید و آی پی را در قسمت آدرس کانفیگ قرار بدید یا اینکه مجدد 3 رو بزنید و کانفیگ رایگان دیگری بگيريد. 
-### اگر با `Termux` مشکل دارید برای حذف کامل اطلاعات موجود در برنامه
-### دستور `rm -rf $PREFIX` را اجرا کنید تا تمام فایل ها حذف شوند و یک بار توقف اجباری بزنید. و سپس کلیر دیتا کنید. مجدد وارد برنامه بشید و دستور زیر را وارد کنید:
+### By choosing 3, a free configuration is generated and the healthy IP found in the configuration is automatically added.
+### This configuration can be used for ``V2rayNG'' and ``Nekobox'' and ``WireGuard'' program.
+### If you encounter an error when copying the config and placing it in the mentioned programs. The problem is the way of copying and the presence of extra spaces between the characters, it is better to first put it in a file (paste) and delete the extra spaces and copy the config again in the mentioned programs. Enter it.
+### If you use IPV6, after entering the config in V2ray, you must put a sign [ ] before and after the IP, that is, put the IP in it so that you don't have connection problems. And that IPV6 does not work on the first mobile and you receive a timeout error.
+### Every IP it gets is not 100% safe, so if it doesn't work, get another IP again and put the IP in the address field of the configuration or hit 3 again and get another free configuration. 
+### If you have a problem with ``Termux'', to completely delete the information in the program
+### Run `rm -rf $PREFIX` command to delete all files and force stop once. And then clear the data. Enter the program again and enter the following command:
 `pkg update -y && pkg upgrade -y && pkg install curl -y`
- ### در پاسخ به سوالات فقط `y` را بزنید و درنهایت خود اسکریپت را اجرا کنید.
- ### برای گرفتن کانفیگ رایگان به تعداد زیاد درخواست نفرستید چون با خطای `Too Many Requests` مواجه می شوید.  و باید صبر کنید.
-### اگر لایسنس گرفتید و برای تبدیل به warp-plus پس دریافت کانفیگ دستور زیر را وارد کنید:
+ ### In response to the questions, just press `y' and finally run the script itself.
+ ### Do not send a large number of requests to get free configuration, because you will encounter ``Too Many Requests'' error.  And you have to wait.
+### If you got a license and to convert to warp-plus, enter the following command to get the configuration:
 ### `WGCF_LICENSE_KEY="Your License" wgcf update`
-### لایسنس خودتون رو به جای `Your License` قرار بدید و اجرا کنید.
+### Put your license instead of ``Your License'' and run it.
 ---
-### برای دریافت لایسنس رایگان از طریق ربات تلگرام روی لینک زیر کلیک کنید.
-[دریافت License Key رایگان](https://t.me/generatewarpplusbot)
+### Click on the link below to get a free license through the Telegram bot.
+[Get Free License Key] (https://t.me/generatewarpplusbot)
 
 ---
-### [4] با انتخاب گزینه ی 4 یک کانفیگ وایرگارد تولید شده که همراه با مقدار Reserved  است. و جهت استفاده در V2rayNG میباشد.
-### این گزینه برای شما wire-g را نصب میکند برای نمایش کامل راهنما کافیه عبارت `warp-g -h` را وارد کنید و برای گرفتن کانفیگ وایرگارد فقط `warp-g` را وارد کرده و اینتر بزنید.(این گزینه مجدد نیاز به نصب و اجرای مجدد توسط اسکریپت نمی باشد). 
-### بعد از دریافت کانفیگ رایگان و اضافه کردن آن در V2rayNG به جای `engage.cloudflareclient.com` باید IP اسکن شده بزارید چون این ادرس فیلتر شده است.
+### [4] By selecting option 4, a wireguard configuration is generated, which is accompanied by the Reserved value. And it is for use in V2rayNG.
+### This option will install wire-g for you. To display the full guide, just enter ``warp-g -h'' and to get the wireguard configuration, just enter ``warp-g'' and press enter. (This option There is no need to install and run the script again). 
+### After receiving the free configuration and adding it to V2rayNG, instead of ``engage.cloudflareclient.com'', you must put a scanned IP because this address is filtered.
 ---
-### جهت دانلود اسکنر ویندوز کلیک کنید.[Win_warp_ip.zip](https://raw.githubusercontent.com/Ptechgithub/warp/main/endip/win_warp_ip.zip)
+### Click to download the Windows scanner. [Win_warp_ip.zip] (https://raw.githubusercontent.com/Ptechgithub/warp/main/endip/win_warp_ip.zip)
 ---
-### اسکریپت نصب وارپ سرور به لینک [WarpServer](https://github.com/Ptechgithub/WarpServer) منتقل شد. 
+### Warp Server installation script moved to [WarpServer](https://github.com/Ptechgithub/WarpServer) link. 
 ---
-### [5] با انتخاب گزینه ی 5 شما یک لایسنس که دارای حجم است  را به عنوان ورودی به اسکریپت می دهید، سپس اسکرپیت لایسنس های دیگری با همان حجم برای شما تولید میکند. و خروجی در فایل `output.txt` ذخیره میشود. همچنین به طور پیش فرض تعدادی لایسنس از قبل اضافه شده است و شما فقط باید اینتر بزنید و از روی همان لایسنس برای شما نسخه های دیگری کلون شود. تا نیاز به لایسنس شما هم نباشد اما اگر به تعداد زیاد استفاده شود ممکن است که به علت محدودیت هر لایسنس 5 دستگاه کار نکند . پس پیشنهاد این است که یک لایسنس از قبل تهیه کنید. داخل توضیحات ربات مورد نظر معرفی شده است.
+### [5] By choosing option 5, you give a license that has a volume as input to the script, then the script will generate other licenses with the same volume for you. And the output is saved in `output.txt` file. Also, by default, a number of licenses have already been added, and you just need to enter and another version will be cloned for you from the same license. so that your license is not needed, but if it is used in large numbers, it may not work due to the limit of 5 devices per license. So it is suggested to get a license in advance. It is introduced in the description of the desired robot.
 
 ## Credits.
-[P3TERX](https://github.com/P3TERX/warp.sh) & [yonggekkk](https://github.com/yonggekkk) & [Misaka-blog](https://github.com/Misaka-blog) & [ViRb3](https://github.com/ViRb3/wgcf) & [ProjectWARP](https://gitlab.com/ProjectWARP)
+[P3TERX](https://github.com/P3TERX/warp.sh) & [yonggekkk](https://github.com/yonggekkk) & [Misaka-blog](https://github.com/Misaka- blog) & [ViRb3](https://github.com/ViRb3/wgcf) & [ProjectWARP](https://gitlab.com/ProjectWARP)
