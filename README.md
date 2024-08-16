@@ -1,4 +1,4 @@
-## Warp Endpoint Scanner + Wire-g Installer
+## Warp Endpoint Scanner + Wire-g Installer🔥
 
 ## Warp IP scanner and wire-g installer (free wireguard configuration) + cloner
 install
