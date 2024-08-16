@@ -38,7 +38,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/nyeinkokoaung404/warp/main/e
 ### This option will install wire-g for you. To display the full guide, just enter ``warp-g -h'' and to get the wireguard configuration, just enter ``warp-g'' and press enter. (This option There is no need to install and run the script again). 
 ### After receiving the free configuration and adding it to V2rayNG, instead of ``engage.cloudflareclient.com'', you must put a scanned IP because this address is filtered.
 ---
-### Click to download the Windows scanner. [Win_warp_ip.zip] (https://raw.githubusercontent.com/Ptechgithub/warp/main/endip/win_warp_ip.zip)
+### Click to download the Windows scanner. [Win_warp_ip.zip] (https://raw.githubusercontent.com/nyeinkokoaung404/warp/main/endip/win_warp_ip.zip)
 ---
 ### Warp Server installation script moved to [WarpServer](https://github.com/Ptechgithub/WarpServer) link. 
 ---
